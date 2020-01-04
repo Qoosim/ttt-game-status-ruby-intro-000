@@ -40,8 +40,9 @@ end
 
 def winner(board)
   if won?(board) == "X"
-    "X"
+    true
   elsif won?(board) == "O"
-    "O"
+    true
   end
+  true
 end
