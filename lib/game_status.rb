@@ -27,5 +27,12 @@ def won?(board)
 end
 
 def full?(board)
-  board.each { |elem| elem == "X" || elem == "O"}
+  board.each do |elem|
+    if elem == "X"
+      return true
+    elsif elem == "O"
+      return true
+    end
+  end
+    return false
 end
