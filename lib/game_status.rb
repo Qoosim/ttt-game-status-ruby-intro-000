@@ -44,5 +44,4 @@ def winner(board)
   elsif won?(board) == "O"
     "O"
   end
-  winner(board)
 end
