@@ -39,5 +39,5 @@ def over?(board)
 end
 
 def winner(board)
-  win_combinations
+  won?(board).all? { |win| win == "X" || win == "O"}
 end
