@@ -48,6 +48,7 @@ end
 
 def winner(board)
   index = []
+  index = won?(board)
   if board[index[0]] == "X"
     return "X"
   else
