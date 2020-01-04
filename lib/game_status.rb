@@ -29,10 +29,11 @@ end
 def full?(board)
   board.each do |elem|
     if elem == "X"
-      return true
+      true
     elsif elem == "O"
-      return true
+      true
+    else
+      false
     end
   end
-    return false
 end
